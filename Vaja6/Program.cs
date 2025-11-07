@@ -14,14 +14,14 @@ namespace vaja6 {
         public string u_geslo;
         public static int stIg = 1;
 
-        public Igralec() {
+        public Igralec() { /* ustvari podatke za igralca */
             u_ime = "";
             u_geslo = "";
             id = stIg;
             stIg++;
         }
 
-        public int Id {
+        public int Id { /* ustvari id */
             get
             {
                 return id;
